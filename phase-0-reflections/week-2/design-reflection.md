@@ -1,22 +1,23 @@
 #2.3 Introduction to Design and Site Planning Reflection"
 
 - **What are the 6 Phases of Web Design?**
-**(1)Information Gathering**
+
+**(1) Information Gathering**
 Identify purpose, goals, target audience, and content of the website.
 
-**(2)Planning**
+**(2) Planning**
 Develop site map. A site map lists all of the main topic and subtopic areas of the site. While planning it's important to keep the customer/user in mind. Decide what technologies should be implemented.
 
-**(3)Design**
+**(3) Design**
 Prototype the layout and visual aesthetics of the website. Wireframing and creating site mockups are helpful when prototyping ideas.
 
-**(4)Development**
+**(4) Development**
 Create the site using HTML, CSS, Javascript (for websites).Begin by developing the home page, followed by a "shell" for the interior pages. The shell will serve as a template for the content pages of the site.
 
-**(5)Testing and Delivery**
+**(5) Testing and Delivery**
 This is when the developer makes sure the site works properly and launches it on the web. Make sure your site meets current standards.
 
-**(6)Maintenance**
+**(6) Maintenance**
 Sites require up-keep. To attract more visitors or repeat visits it's helpful to update content. Other maintenance requirements may include site backups and additional plugin installations.
 
 - **What is your site's primary goal or purpose? What kind of content will your site feature?**
