@@ -1,0 +1,94 @@
+body {
+  background-color: #ffffff;
+  color: #000080;
+}
+
+li {
+  font-size: smaller;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+li a {
+  font-size: initial
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+li a:after {
+  content:"\a";
+  white-space: pre;
+}
+
+#left-col {
+  float: left;
+  width: 40%;
+}
+
+#right-col {
+  float: left;
+  width: 40%;
+}
+
+footer {
+  clear: both;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-variant: small-caps;
+}
+
+.inc {
+  font-size: smaller;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+h2 span {
+  font-size: initial;
+}
+
+section {
+  text-align: center;
+  font-size: smaller;
+}
+
+.top-border {
+  border-top: 2px inset grey;
+  padding-top: 10px;
+}
+
+section p {
+  margin: 0;
+}
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  Type- what type of file it is
+  Rel- the external file's relationship to the document
+  href- the link to the file
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  To get the two columns we used two class selectors for two separate lists and floated them to the left. It worked well except the content outside of the lists was also broken up into columns. To fix that we used the clear: both; property:value; pair.
+
+-What CSS did you use to modify the element style (like size, color, etc.)
+  font-size, color, font-variant
+
+-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  We used both. Class selectors are most useful when you have many elements that should recive the same styling. Id selectors work best when you have just one element that should receive certain styling.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  Since the original site didn't use css, ours was much cleaner. The actual site was coded with all the styling elements in html which made it difficult to read the code since the content itself was jumbled amongst style code.
+
+*/
