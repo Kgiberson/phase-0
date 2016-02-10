@@ -1,0 +1,43 @@
+header{
+  width:100%;
+  background: navy;
+  color: white;
+  padding: 5%;
+  border: 5px solid white;
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  border-bottom: 2px solid white;
+  padding: 2%;
+}
+
+h2 {
+  font-weight: bold;
+}
+.column-1 {
+  width:40%;
+  float:left;
+  padding: 5%;
+  background-color: light gray;
+  font-family: "Helvetica", sans-serif;
+}
+
+a:link {
+  text-decoration:none;
+}
+
+.column-2 {
+  width:40%;
+  background-color: light gray;
+  padding:5%;
+  float:left;
+  font-family: "Helvetica", sans-serif;
+}
+
+footer {
+ clear: both;
+ text-align: center;
+ border: 5px solid dark gray;
+ background: #00B7FF;
+}
