@@ -13,6 +13,29 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  list_of_words.sort!
-  return list_of_words[0]
+  if list_of_words == []
+    return nil
+  end
+  shortest = list_of_words[0]
+  list_of_words.each do |word|
+    if word.length < shortest.length
+      shortest = word
+    end
+  end
+  return shortest
 end
+
+
+# to find length of arrays:
+# def shortest_string(list_of_words)
+#   output = []
+#   list_of_words.each do |word|
+#     output << word.length
+#   end
+#     return output
+# end
+
+#   list_of_words.sort!
+#   return list_of_words[0]
+# end
+
