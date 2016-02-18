@@ -65,4 +65,4 @@ end
 # What issues/successes did you run into when translating your pseudocode to code?
 # It took us awhile to figure out how to select the largest values and their paired key. It also was our first time working with the hash.store method so that took some figuring out.
 # What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-# .each
+#  We used .each to iterate through the content. We read about map and collect, which would be more advanced ways of iterating, but we kept .each because they were difficult!
