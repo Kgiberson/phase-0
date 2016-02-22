@@ -9,7 +9,10 @@
 # Input: Object
 # Output: Class
 # Steps:
-# 1.
+# 1. initialize the class by defining the arguments
+#   - Raise ArgumentError here
+# 2. define argument
+# 3. define the roll by implementing a method that randomizes the input argument of sides
 
 
 # 1. Initial Solution
