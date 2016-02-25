@@ -3,17 +3,17 @@
 
 
 # I worked on this challenge by myself.
-# I spent  hours on this challenge.
+
+# I spent 1 hour on this challenge.
 
 # Pseudocode
 
 # Input: integer
-# Output:
+# Output: boolean
 # Steps:
 # 1. Initialize class with an integer called answer
 # 2. Define an instance method which takes an integer as its input and returns :high IF guess > answer, ELSE :correct the guess == answer, and ELSE :low guess < answer.
 # 3. Define an instance method, #solved? IF most recent guess == correct RETURNS true ELSE RETURNS false.
-
 
 # Initial Solution
 
@@ -62,8 +62,6 @@ class GuessingGame
     @guess == @answer
   end
 end
-
-
 
 
 # Reflection
