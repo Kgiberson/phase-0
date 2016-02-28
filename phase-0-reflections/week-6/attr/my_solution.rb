@@ -7,8 +7,13 @@
 # Pseudocode
 
 # Input: data from a separate class
-# Output:
+# Output: string containing interpolated instance variable from separate method.
 # Steps:
+# 1. Initialize NameData with my name
+#   - set attr_reader
+# 2. Initialize Greetings with an instance of NameData class
+# 3. Define a method, hello, in Greetings that pulls my name from the first class defined
+# 4. Write a method call that prints the "Hello ..." string
 
 class NameData
   attr_reader :name
@@ -25,7 +30,6 @@ end
 
 
 class Greetings
-  # attr_reader :
   def initialize
     @name_data = NameData.new
   end
