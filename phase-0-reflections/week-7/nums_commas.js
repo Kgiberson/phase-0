@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with: Charlie Lee.
 
 // Pseudocode
 // Take 1:
@@ -71,7 +71,11 @@ function assert(test, message, test_number) {
 }
 
 // Reflection
-What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
-What did you learn about iterating over arrays in JavaScript?
-What was different about solving this problem in JavaScript?
-What built-in methods did you find to incorporate in your refactored solution?
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+//   Yes, since strings are not mutable, it changes some of the steps in our approach.
+// What did you learn about iterating over arrays in JavaScript?
+//   Since the each method doesn't exist in JS, for loops become very handy. for (initialize ; when to stop ; how it changes)
+// What was different about solving this problem in JavaScript?
+//   We couldn't call reverse on the string and there is no equivalent each method,
+// What built-in methods did you find to incorporate in your refactored solution?
+//   We didn't add any built-in methods but we were able to make our code less DRY.
