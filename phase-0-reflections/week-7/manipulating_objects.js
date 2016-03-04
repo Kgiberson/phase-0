@@ -41,8 +41,11 @@ adam.children = terah.children
 // Reflection: Use the reflection guidelines
 //
 //What tests did you have trouble passing? What did you do to make it pass? Why did that work?
-// How difficult was it to add and delete properties outside of the object itself?
-// What did you learn about manipulating objects in this challenge?
+//   It took me the longest to figure out how to get children and Carson. Once I realized that you can create new nested objects with the . it was easier.
+// // How difficult was it to add and delete properties outside of the object itself?
+//   It was pretty straightforward.
+// // What did you learn about manipulating objects in this challenge?
+//   I learned that JSs syntax for manipulating objects is intuitive.
 //
 //
 //
