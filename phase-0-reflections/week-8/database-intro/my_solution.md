@@ -55,16 +55,27 @@ What is a primary key? What is a foreign key? How can you determine which is whi
 How can you select information out of a SQL database? What are some general guidelines for that?
 
 Release 6:
+
 ![outfits schema](outfits.schema.png?raw=true "Outfits Schema")
 
 Release 7: Reflect
 What are databases for?
+
   A database is a collection of information organized to allow it to be easily accessed, managed, and updated.
+
+
 What is a one-to-many relationship?
+
   A one-to-many relationship exists in a relational database when one row in table A may be linked with many rows in table B, but one row in table B is linked to only one row in table A. It is a property of the relationship itself.
+
+
 What is a primary key? What is a foreign key? How can you determine which is which?
+
   A primary key is a field (or collection of fields) which uniquely identify that row from all other rows. It is assumed in Rails that the primary key is an auto-incrementing integer called 'id'. A foreign key is used to connect one table to another. They are generally used to connect a primary key to another table with a field for that primary key as well.
+
+
 How can you select information out of a SQL database? What are some general guidelines for that?
+
   SELECT column_name
   FROM table_name
   end statement with a ';'
