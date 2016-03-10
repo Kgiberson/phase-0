@@ -6,6 +6,7 @@ The user and security check is a one-to-one relationship because there can only 
 
 
 Release 4: Refactor
+
 ![many-to-many schema](imgs/many-to-many-ex-schema.png?raw=true "many-to-many Schema
 
 
