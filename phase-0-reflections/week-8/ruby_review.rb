@@ -90,5 +90,8 @@ assert {my_info[:age] == 25}
 
 # 5. Reflection
 # What concepts did you review or learn in this challenge?
+  # Ruby assertions
 # What is still confusing to you about Ruby?
+  # I'll definitely need more practice with writing my own assert statements.
 # What are you going to study to get more prepared for Phase 1?
+  # All of the ruby challenges!
